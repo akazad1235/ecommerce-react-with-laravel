@@ -5,11 +5,13 @@ import Categories from '../Components/Home/Categories';
 import Collection from '../Components/Home/Collection';
 import NewArrival from '../Components/Home/NewArrival';
 import HomeTop from '../Components/Home/HomeTop';
+import NavMenuDesktop from '../Components/Common/NavMenuDesktop';
 
 
 const Home = () => {
     return (
         <div>
+            <NavMenuDesktop/>
             <HomeTop/>
             <FeaturedProducts/>
             <NewArrival/>
