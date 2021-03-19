@@ -3,7 +3,7 @@ import {Button, Container, Navbar, Row, Col } from 'react-bootstrap';
 
 const NavMenuDesktop = () => {
     return (
-        <>
+        <div className="desktop-nav">
             <Navbar className="navbar" fixed={"top"} bg="light">
                 <Container fluid={"true"} className="fixed-top shadow-sm p-2 m-0 bg-white">
                     <Row>
@@ -26,7 +26,8 @@ const NavMenuDesktop = () => {
                     </Row>
                 </Container>
             </Navbar>
-        </>
+        </div>
+       
     );
 };
 

@@ -11,6 +11,12 @@
     .product-price-on-card{
         font-size: 13px;
     }
+    .home-top-desktop{
+        display: none;
+    }
+    .desktop-nav{
+        display: none;
+    }
 }
 
 @media (min-width: 375.98px) and (max-width: 575.98px){
@@ -25,6 +31,12 @@
     }
     .product-price-on-card{
         font-size: 13px;
+    }
+    .home-top-desktop{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
     }
 }
 
@@ -43,6 +55,12 @@
     .product-price-on-card{
         font-size: 13px;
     }
+    .home-top-desktop{
+        display: none;
+    }
+    .desktop-nav{
+        display: none;
+    }
 }
 
 
@@ -50,23 +68,41 @@
     .section-sub-title{
         font-size: 13px;
     }
+    .home-top-mobile{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
 
 }
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+    .home-top-mobile{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
 }
 
 
 @media (min-width: 1200px) {
-
+    .home-top-mobile{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+    }
 }
  /* home page big image slider */
 @media (max-width: 784px) {
     .slider-img{
         height:300px;
     }
+
+    
 }
 
 
