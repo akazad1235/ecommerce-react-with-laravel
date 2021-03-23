@@ -12,6 +12,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import ProductDetailsPage from './Pages/ProductDetailsPage';
+
 
 
 
@@ -26,6 +28,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/Details">
+          <ProductDetailsPage/>
         </Route>
         <Route path="/login">
           <UserOnboardPage />
