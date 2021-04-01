@@ -16,7 +16,7 @@ const UserOnboardPage = () => {
                         <Card.Body>
                             <Card.Title>Login</Card.Title>
                             <Card.Text>
-                                <label htmlFor="">Phone Number</label>
+                                <label >Phone Number</label>
                                 <input type="text" className="w-100" placeholder="Your Phone Number"/>
                             </Card.Text>
                             <Card.Link href="#" className="float-right">Next</Card.Link>

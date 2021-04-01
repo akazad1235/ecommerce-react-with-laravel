@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -19,7 +20,7 @@ const Footer = () => {
                     <Col lg={3} md={6} sm={6} xm={4}>
                         <h4>The Company</h4>
                         <li className=""><a href="">About us</a></li>
-                        <li className=""><a href="">Contact us</a></li>
+                        <li className=""><a href="">Contact</a> </li>
                         <li className=""> <a href="">Our Team</a></li>
                         <h6>Address</h6>
                         <p>268/A, Middle Pirerbag, Mirpur-1, Dhaka-1205</p>

@@ -27,10 +27,10 @@ const CartList = () => {
                                 <h5>Desktop Pc Core™ i5-6400 6th Gen 8GB Ram 240GB SSD HP V194 18.5-inch LED</h5>
                                 <div className="btn-action d-flex justify-content-between mt-3">
                                     <div className="quantity d-flex">
-                                        <button className="btn btn-success btn-sm"><i class="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+                                        <button className="btn btn-success btn-sm"><i className="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
                                     </div>
                                     <div className="remove-cart-item">
-                                        <button className="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                                        <button className="btn btn-danger btn-sm"><i className="fas fa-trash"></i></button>
                                     </div>
                                 </div>
                                 <div className="price mt-3">
@@ -46,10 +46,10 @@ const CartList = () => {
                                 <h5>Desktop Pc Core™ i5-6400 6th Gen 8GB Ram 240GB SSD HP V194 18.5-inch LED</h5>
                                 <div className="btn-action d-flex justify-content-between mt-3">
                                     <div className="quantity d-flex">
-                                        <button className="btn btn-success btn-sm"><i class="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+                                        <button className="btn btn-success btn-sm"><i className="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
                                     </div>
                                     <div className="remove-cart-item">
-                                        <button className="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                                        <button className="btn btn-danger btn-sm"><i className="fas fa-trash"></i></button>
                                     </div>
                                 </div>
                                 <div className="price mt-3">
@@ -65,10 +65,10 @@ const CartList = () => {
                                 <h5>Desktop Pc Core™ i5-6400 6th Gen 8GB Ram 240GB SSD HP V194 18.5-inch LED</h5>
                                 <div className="btn-action d-flex justify-content-between mt-3">
                                     <div className="quantity d-flex">
-                                        <button className="btn btn-success btn-sm"><i class="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+                                        <button className="btn btn-success btn-sm"><i className="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success btn-sm"><i className="fas fa-plus"></i></button>
                                     </div>
                                     <div className="remove-cart-item">
-                                        <button className="btn btn-danger btn-sm"><i class="fas fa-trash"></i></button>
+                                        <button className="btn btn-danger btn-sm"><i className="fas fa-trash"></i></button>
                                     </div>
                                 </div>
                                 <div className="price mt-3">
@@ -77,8 +77,11 @@ const CartList = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={4} md={4} sm={12} xs={12} className="mt-5">
+                    <Col lg={4} md={4} sm={12} xs={12} className="mt-5 border ">
+                        <div className="header ">
+                            <h3>Checkout Summary</h3>
 
+                        </div>
                     </Col>
                 </Row>
             </Container>

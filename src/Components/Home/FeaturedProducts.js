@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import FakeData from '../../../src/fakeData/fakeData';
 
 const FeaturedProducts = () => {
@@ -16,7 +17,7 @@ const FeaturedProducts = () => {
                             <Col className="p-2" xl={2} lg={2} md={2} sm={4} xs={6}>
                                
                                 <Card className="image-box card">
-                                    <img src={fProducts.img} alt="" />
+                                    <Link to="/details"><img src={fProducts.img} alt="" /></Link>
                                 
                                     <Card.Body>
                                         <h1 className="product-name-on-card text-center">Product Title</h1>

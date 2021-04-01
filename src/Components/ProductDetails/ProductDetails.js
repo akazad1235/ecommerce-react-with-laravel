@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ButtonToolbar, Col, Container, Nav, Row, Tabs, Tab, Table} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const ProductDetails = () => {
     return (
@@ -67,7 +68,7 @@ const ProductDetails = () => {
                                     <button className="btn btn-success"><i class="fas fa-minus"></i></button><input className="form-control"  width="10" type="text"/><button className="btn btn-success"><i class="fas fa-plus"></i></button>
                                 </div>
                                 <div className="buy-btn">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button className="btn btn-primary " ><Link to="/cartList" className="text-white">Buy Now</Link></button>
                                 </div>
                                 <div className="buy-btn">
                                     <button className="btn btn-danger">Compare</button>

@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import ProductDetailsPage from './Pages/ProductDetailsPage';
 import CartList from './Pages/CartList';
+import Contact from './Pages/Contact';
 
 
 
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/cartList">
           <CartList/>
+        </Route>
+        <Route path="/contact">
+          <Contact/>
         </Route>
         <Route path="/login">
           <UserOnboardPage />
