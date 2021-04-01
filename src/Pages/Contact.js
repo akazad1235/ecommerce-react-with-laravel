@@ -7,8 +7,12 @@ import NavMenuDesktop from '../Components/Common/NavMenuDesktop';
 import NavMenuMoblie from '../Components/Common/NavMenuMoblie';
 import formValidation from '../validation/FormValidation';
 
-const Contact = () => {
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const Contact = () => {
+    let contactForm = document.getElementById('contactForm');
    const [contact, setContact] = useState({
        name:'',
        phone: '',
@@ -46,11 +50,11 @@ const Contact = () => {
          let {name, phone, msg}  = contact;
 
         if (!(formValidation.name).test(name)) {
-            alert('invalid name');
+            toast.warning("invalid name")
         }else if(!(formValidation.phone).test(phone)){
-            alert('invalid phone number');
+            toast.warning("invalid phone number")
         }else if(msg.length == 0){
-            alert('please write your message');
+            toast.warning("please write your message")
         }
         else{
             let myFormData = new FormData();
@@ -62,13 +66,14 @@ const Contact = () => {
             .then((res)=>{
                console.log(res.data.status);
                if (res.data.status) {
-                alert('contact send success');
+                toast.success("contact send success")
+                contactForm.reset();
                }else{
                    alert('error');
                }
             })
             .catch((error)=>{
-               alert('error');
+                toast.error("Something Wrong!!!!!")
             })
         }
          
@@ -107,6 +112,8 @@ const Contact = () => {
                 </Row>
             </Container>
             <Footer/>
+
+            <ToastContainer />
         </div>
     );
 };
